@@ -15,7 +15,7 @@ module.exports = {
                         }));
 
         const sortedBlocks = result.sort((a,b) => new Date(a.time).getTime() - new Date(b.time).getTime());
-        res.status(200).json(utils.paginator(sortedBlocks));
+        res.status(200).json(utils.paginator(sortedBlocks, req.query.page, req.query.limit));
     } catch (error) {
       console.error(error)
     }
