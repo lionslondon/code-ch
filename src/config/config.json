@@ -1,0 +1,18 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "my app",
+        "app_desc": "my app desc",
+        "node_port": 3000,
+        "blocksListURL": "https://blockchain.info/blocks?format=json",
+        "blockDetailsURL" : "https://blockchain.info/rawblock/"
+
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "database": "my-app-db-prod",
+        "blocksListURL": "https://blockchain.info/blocks?format=json",
+        "blockDetailsURL" : "https://blockchain.info/rawblock/"
+    }
+}

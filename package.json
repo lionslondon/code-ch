@@ -1,0 +1,30 @@
+{
+  "name": "apiproject",
+  "version": "1.0.0",
+  "description": "This is API written with Node JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "moch ./**/*Test.js"
+  },
+  "author": "Moe Mahdiani",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "nodemon": "^1.17.4",
+    "rewire": "^4.0.1",
+    "sinon": "^7.1.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.2",
+    "helmet": "^3.12.1",
+    "joi": "^13.4.0",
+    "lodash": "^4.17.11",
+    "morgan": "^1.9.0"
+  }
+}
